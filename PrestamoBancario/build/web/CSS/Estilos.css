@@ -1,0 +1,171 @@
+
+body{
+    background-image: url("../Imagenes/wallpdinero.png");
+
+}
+
+#centrar{
+    margin-top: 4%;
+}
+
+#login{
+    text-align: center;
+    font-size: 30px;
+    width: 25%;
+    height: 180px;;
+    
+}
+
+#resaltar{
+    color: #1293d4;
+    font-weight: bold; /*Negrita*/
+    -webkit-text-stroke: 0.5px black;
+}
+#resulpres{
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+
+/*
+#tprestamo{
+    width: 80%;
+    
+}
+
+#tprestamo tr, td{
+   width: 25%;
+   font-size: 25px;
+   text-align: left;
+   vertical-align: top;
+}
+*/
+#tilog{
+    font-size: 50px;
+}
+
+#il{
+    font-size: 25px;
+}
+
+#botonIngreso{
+    border: none;
+    background: grey;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#botonIngreso1{
+    border: none;
+    background: grey;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+#botonIngreso1:hover {
+    background: black;
+}
+
+#botonIngreso:hover {
+    background: black;
+}
+
+/*Estilos Banner*/
+
+header{
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 70px;
+    border-bottom: 5px solid #1293d4;
+}
+
+
+header a{
+    color: #fff;
+    text-decoration: none; /*Para que no salga la linea debajo de los hipervinculos*/
+    text-transform: uppercase;
+    font-size: 16px; 
+    line-height: 50px;
+}
+
+header ul li{
+    float: left; /*Las listas flotan hacia la izquierda*/
+    display: block; /*Las listas se ven en linea*/
+    padding: 0 20px; 
+    line-height: 50px;
+}
+
+header #marca{
+    float: left;
+    margin-left: 500px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+header #marca1{
+    float: left;
+    margin-left: 370px;
+    line-height: 50px;
+}
+
+header #marca h1{
+    margin: 0;
+    line-height: 50px;
+}
+
+header nav{
+    float: right;
+}
+
+header .resaltado, header .actual a{
+    color: #1293d4;
+    font-weight: bold; /*Negrita*/
+}
+
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+/*Estilos del Footer*/
+footer{
+    padding: 2px;
+    text-decoration-color: #F2F2F2;
+    color: white;
+    font-size: 20px;
+    background-color: #24282b;
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+}
+
+#footer1{
+    padding: 2px;
+    text-decoration-color: #F2F2F2;
+    color: white;
+    font-size: 20px;
+    background-color: #24282b;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    
+}
+
+#botones{
+    margin-top: 150px;
+}

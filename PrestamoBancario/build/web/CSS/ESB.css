@@ -1,0 +1,113 @@
+
+
+#simuladorBanco{
+    font-size: 25px;
+}
+
+#nombre{
+    font-size: 30px;
+}
+
+#textopres{
+    font-size: 20px;
+}
+#simuladorBanco tr{
+    height: 40px;
+}
+
+#ilfn{
+    padding-left: 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+select{
+    font-size: 20px;
+    width: 218px;
+    height: 32px;
+}
+
+#Solicitud{
+    border: none;
+    background: grey;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#Solicitud:hover {
+    background: black;
+}
+
+/*Estilos Banner*/
+
+header{
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 70px;
+    border-bottom: 5px solid #1293d4;
+}
+
+
+header a{
+    color: #fff;
+    text-decoration: none; /*Para que no salga la linea debajo de los hipervinculos*/
+    text-transform: uppercase;
+    font-size: 16px; 
+    line-height: 50px;
+}
+
+header ul li{
+    float: left; /*Las listas flotan hacia la izquierda*/
+    display: block; /*Las listas se ven en linea*/
+    padding: 0 20px; 
+    line-height: 50px;
+}
+
+header #marca{
+    float: left;
+    margin-left: 200px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+header #marca h1{
+    margin: 0;
+    line-height: 50px;
+}
+
+header nav{
+    float: right;
+}
+
+header .resaltado, header .actual a{
+    color: #1293d4;
+    font-weight: bold; /*Negrita*/
+}
+
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+/*Estilos del Footer*/
+footer{
+    padding: 2px;
+    margin-top: 30px;
+    text-decoration-color: #F2F2F2;
+    color: white;
+    font-size: 20px;
+    background-color: #24282b;
+    text-align: center;
+    position: relative;
+}
